@@ -6,7 +6,7 @@ const ControlledComponents = () => {
 
     function handleChange(e) {
         setFirstName(e.target.value)
-       
+
     }
 
     function handleSubmit(e) {
