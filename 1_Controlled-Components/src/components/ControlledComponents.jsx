@@ -1,37 +1,34 @@
-import { useState } from "react";
+import React from 'react'
+import { useState } from 'react'
 
-
-
-const Controlledomponents = () => {
-    const [firstName, setFirstname] = useState("");
+const ControlledComponents = () => {
+    const [firstName, setFirstName] = useState("");
 
     function handleChange(e) {
-        console.log(e.target.value);
-        setFirstname(e.target.value)
+        setFirstName(e.target.value)
+       
     }
 
     function handleSubmit(e) {
         e.preventDefault();
         alert(`${firstName} submitted successfully`)
     }
-
     return (
         <>
-
-            <form action="submit" onSubmit={handleSubmit}>
-                <label htmlFor="name">Firstname</label>
+            <p>{firstName}</p>
+            <form onSubmit={handleSubmit}>
+                <label htmlFor='firstName'>FirstName</label>
                 <input
                     type="text"
-                    placeholder="firstName"
+                    placeholder='Enter your first Name'
                     value={firstName}
                     onChange={handleChange}
                 />
-
-                <button type="submit">Submit</button>
+                <button type='submit'>Submit</button>
             </form>
 
         </>
     )
 }
 
-export default Controlledomponents;
+export default ControlledComponents
