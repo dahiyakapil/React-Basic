@@ -1,0 +1,12 @@
+Rules for writing the JSX 
+
+1. JSX Must Return a Single Parent Element
+2. Use className instead of class, because class is a reserved keyword in JavaScript.
+3. Use camelCase for Attributes and Event Handlers
+4. JSX Expressions Must Be Inside {}
+5. Self-Closing Tags Must End with /
+6. Use style as an Object
+7. Keys are Required for Lists
+8. Component Names Must Be Capitalized
+9. Comments in JSX Must Be Inside {}
+10. Use ternary operator or logical `&&` to conditionally render content.
