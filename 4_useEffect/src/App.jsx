@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import DataFetcher from './components/DataFetcher'
 import Counter from './components/Counter'
+import Debounce from './components/Debounce'
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
   return (
     <>
       {/* <DataFetcher /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Debounce />
     </>
   )
 }
