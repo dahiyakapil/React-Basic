@@ -22,7 +22,7 @@ const Form = () => {
     }
 
     useEffect(() => {
-        console.log("Registered")
+        console.log("Registered")   
         return () => {
             console.log("cleanup")
         };
