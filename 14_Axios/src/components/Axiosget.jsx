@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 
-const Axios = () => {
+const Axiosget = () => {
     const [userdata, setUserData] = useState([]);
 
     const API_URL = "https://jsonplaceholder.typicode.com/users";
@@ -36,4 +36,4 @@ const Axios = () => {
     );
 }
 
-export default Axios;
+export default Axiosget;

@@ -1,13 +1,15 @@
 
 import './App.css'
-import Axios from './components/Axios'
+import Axiosget from './components/Axiosget'
+import AxiosPost from './components/AxiosPost'
 
 function App() {
  
 
   return (
     <>
-      <Axios />
+      {/* <Axiosget /> */}
+      <AxiosPost />
     </>
   )
 }
