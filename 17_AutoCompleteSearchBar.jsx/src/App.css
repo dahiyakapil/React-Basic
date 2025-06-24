@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.auto {
+  text-align: center;
+  
+}
+
+.search-bar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.search-input {
+  width: 500px;
+  height: 25px;
+}
+
+.results-container{
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  overflow-y: scroll;
+  max-height: 500px;
+}
+
+.result{
+  display: block;
+  padding: 3px;
+}
+
+
+.result:hover{
+  background-color: beige;
+}

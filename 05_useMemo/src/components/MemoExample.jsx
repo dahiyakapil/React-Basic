@@ -28,9 +28,7 @@ const MemoExample = () => {
             <h4>Value of sub: {minus}</h4>
             <button onClick={sub}>Subtract</button>
 
-            <h4>Multiply: {muliply}</h4>
-
-            
+            <h4>Multiply: {muliply}</h4>            
         </div>
     )
 }
